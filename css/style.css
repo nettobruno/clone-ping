@@ -1,0 +1,135 @@
+div#content {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 100px 0px;
+}
+
+img#logo {
+  margin-bottom: 40px;
+}
+
+div#content h1 {
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+div#content h1 > span {
+  color: hsl(209, 33%, 12%);
+  font-weight: 700;
+}
+
+div#content p {
+  color: hsl(209, 33%, 12%);
+}
+
+div#content form {
+  margin-top: 30px;
+}
+
+div#content form input {
+  border: 1px solid hsl(223, 100%, 88%);
+  color: hsl(223, 100%, 88%);
+  height: 40px;
+  width: 300px;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+::placeholder {
+  color: hsl(223, 100%, 88%);
+}
+
+p#msgemail {
+  font-size: 13px;
+  margin-top: 10px;
+  display: none;
+}
+
+div#content form button {
+  background-color: hsl(223, 87%, 63%);
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  height: 40px;
+  padding: 0 40px;
+  box-shadow: 0px 0px 5px hsl(223, 87%, 63%);
+  font-size: 14px;
+}
+
+div#content img#illustration {
+  margin-top: 50px;
+  width: 50%;
+}
+
+
+/* Ícones das redes sociais */
+div#social-media {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#social-media div {
+  border: 1px solid hsl(0, 0%, 59%);
+  border-radius: 100px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .2s;
+}
+
+div#social-media div:hover {
+  transform: scale(1.2);
+}
+
+div#social-media div img {
+  width: 15px;
+}
+
+div#content p#copy {
+  color: hsl(0, 0%, 59%);
+  font-size: 12px;
+}
+
+
+/* Estilização para dispositivos menores */
+@media screen and (max-width: 768px) {
+  
+  div#content h1 {
+    font-size: 26px;
+  }
+  
+  div#content form {
+    margin-top: 30px;
+  }
+  
+  div#content form input {
+    margin-bottom: 10px;
+    width: 80%;
+  }
+  
+  div#content form button {
+    width: 80%;
+  }
+  
+  div#content img#illustration {
+    width: 85%;
+  }
+  
+  
+  /* Ícones das redes sociais */  
+  div#social-media div {
+    margin: 10px;
+  }
+  
+  div#content p#copy {
+    margin-top: 20px;
+  }
+}
